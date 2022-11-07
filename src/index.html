@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link href="assets/css/nouislider.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SB </title>
+  </head>
+  <body>
+    <div class="wrapper"> 
+      <header class="header">
+        <div class="container">
+          <div class="header-top"> 
+            <div class="header-top__menu">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">О компании</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">О нас</a></li>
+                        <li><a class="dropdown-item" href="#">Партнеры</a></li>
+                        <li><a class="dropdown-item" href="#">Карьера</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Клиентам</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Поставщикам</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Медиа</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            <div class="header-top__contacts">
+              <div class="header-top__contacts_phone"><a class="link" href="tel:84952868836">8 (495) 286-88-38</a></div>
+              <div class="header-top__contacts_phone"><a class="link" href="tel:84952868836">8 (495) 286-88-38</a></div>
+              <div class="header-top__contacts_work"> 
+                <p>Пн.-Пт.: <span>9:00—18:00</span></p>
+                <p>Сб.: <span>9:00— 16:30</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="header-bottom"> 
+            <div class="header-bottom__logo"><img src="assets/images/logo.svg" alt=""></div>
+            <div class="header-bottom__catalog">
+               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 2C0 3.10457 0.895431 4 2 4C3.10457 4 4 3.10457 4 2C4 0.895431 3.10457 0 2 0C0.895431 0 0 0.895431 0 2Z" fill="#F4F4F8"/>
+<path d="M6 14C6 15.1046 6.89543 16 8 16C9.10457 16 10 15.1046 10 14C10 12.8954 9.10457 12 8 12C6.89543 12 6 12.8954 6 14Z" fill="#F4F4F8"/>
+<path d="M2 16C0.895431 16 0 15.1046 0 14C0 12.8954 0.895431 12 2 12C3.10457 12 4 12.8954 4 14C4 15.1046 3.10457 16 2 16Z" fill="#F4F4F8"/>
+<path d="M0 8C0 9.10457 0.895431 10 2 10C3.10457 10 4 9.10457 4 8C4 6.89543 3.10457 6 2 6C0.895431 6 0 6.89543 0 8Z" fill="#F4F4F8"/>
+<path d="M8 10C6.89543 10 6 9.10457 6 8C6 6.89543 6.89543 6 8 6C9.10457 6 10 6.89543 10 8C10 9.10457 9.10457 10 8 10Z" fill="#F4F4F8"/>
+<path d="M14 0C12.8954 0 12 0.895431 12 2C12 3.10457 12.8954 4 14 4C15.1046 4 16 3.10457 16 2C16 0.895431 15.1046 0 14 0Z" fill="#F4F4F8"/>
+<path d="M8 4C6.89543 4 6 3.10457 6 2C6 0.895431 6.89543 0 8 0C9.10457 0 10 0.895431 10 2C10 3.10457 9.10457 4 8 4Z" fill="#F4F4F8"/>
+<path d="M12 8C12 9.10457 12.8954 10 14 10C15.1046 10 16 9.10457 16 8C16 6.89543 15.1046 6 14 6C12.8954 6 12 6.89543 12 8Z" fill="#F4F4F8"/>
+<path d="M14 16C12.8954 16 12 15.1046 12 14C12 12.8954 12.8954 12 14 12C15.1046 12 16 12.8954 16 14C16 15.1046 15.1046 16 14 16Z" fill="#F4F4F8"/>
+</svg><span>Каталог</span>
+            </div>
+            <div class="header-bottom__form"> 
+              <form class="form">
+                <input class="form-control" type="text" placeholder="Что хотите найти?">
+                <button class="button-search" type="submit"> <img src="assets/images/search.svg" alt=""></button>
+              </form>
+            </div>
+            <div class="header-bottom__promo"> <a class="btn button button-white"> <img src="assets/images/percent.svg" alt=""><span>Акции</span></a></div><a class="btn button button-red"> <img src="assets/images/user.svg" alt=""><span>Личный кабинет</span></a>
+          </div>
+        </div>
+      </header>
+      <div class="header-catalog">
+        <div class="container">
+          <ul class="header-catalog__menu"> 
+            <li> <a href="#">Сайдинг</a></li>
+            <li> <a href="#">Фасадные панели</a></li>
+            <li> <a href="#">Террасная доска</a></li>
+            <li> <a href="#">Водосточные системы</a></li>
+            <li> <a href="#">Ламинат</a></li>
+            <li> <a href="#">Подложка</a></li>
+            <li> <a href="#">Стеновые панели</a></li>
+            <li> <a href="#">Плинтусы</a></li>
+          </ul>
+        </div>
+      </div>
+      <main class="main-section">
+        <div class="first-block"> 
+          <div class="container">
+            <div class="row"> 
+              <div class="col-xl-9 col-lg-8 col-12">
+                <div class="main-slider swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="main-slider__slide" style="background: url(assets/images/slide-1.png) top center no-repeat; background-size:cover;">
+                        <div class="main-slider__slide_text"> 
+                          <div class="text">
+                            <h1 class="caption">Дистрибьютор отделочных материалов</h1>
+                            <p>SBcompany — ведущая дистрибьюторская компания России в области отделочных материалов.</p>
+                          </div><a class="btn button button-white-bg" href="#">Подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="main-slider__slide" style="background: url(assets/images/slide-1.png) top center no-repeat; background-size:cover;">
+                        <div class="main-slider__slide_text"> 
+                          <div class="text">
+                            <p class="caption">Заголовок слайда</p>
+                            <p>SBcompany — ведущая дистрибьюторская компания России в области отделочных материалов.</p>
+                          </div><a class="btn button button-white-bg" href="#">Подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="main-slider__slide" style="background: url(assets/images/slide-1.png) top center no-repeat; background-size:cover;">
+                        <div class="main-slider__slide_text"> 
+                          <div class="text">
+                            <p class="caption">Заголовок</p>
+                            <p>SBcompany — ведущая дистрибьюторская компания России в области отделочных материалов.</p>
+                          </div><a class="btn button button-white-bg" href="#">Подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-buttons"> 
+                    <div class="swiper-prev main-prev">
+                      <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 5L3.83 5L7.41 1.41L6 0L0 6L6 12L7.41 10.59L3.83 7L16 7V5Z" fill="#313238"></path>
+                      </svg>
+                    </div>
+                    <div class="swiper-next main-next">
+                      <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 7L12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5L1.74846e-07 5L0 7Z" fill="#313238"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination main-pagination"></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-12">
+                <div class="main-banner"> 
+                  <div class="main-banner__text"> 
+                    <h2>Вы — поставщик, ищущий новые каналы сбыта?</h2>
+                    <p>Напишите нам и давайте работать вместе!</p>
+                  </div><a class="btn button button-white-bg" href="#">Стать поставщиком</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="main-odds indent-bottom">
+            <div class="row"> 
+              <div class="col-lg-3 col-12">
+                <div class="main-odds__item"> <strong>17 000 м<sup>2</sup></strong>
+                  <p>складских площадей (собственных и в аренде)</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-12">
+                <div class="main-odds__item"> <strong>2 000</strong>
+                  <p>активных клиентов</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-12">
+                <div class="main-odds__item"> <strong>150</strong>
+                  <p>сотрудников</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-12">
+                <div class="main-odds__item"> <strong>7 лет</strong>
+                  <p>на рынке</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-catalog"> 
+            <h2>Каталог</h2>
+            <div class="row"> 
+              <div class="col-lg-6 col-12"><a class="main-catalog__item main-catalog__item-big" href="#"><span class="text">Сайдинг</span><span class="arrow">
+                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></span><span class="image"> <img src="assets/images/cat-1.png" alt=""></span></a></div>
+              <div class="col-lg-6 col-12"><a class="main-catalog__item main-catalog__item-big" href="#"><span class="text">Сайдинг									</span><span class="arrow">
+                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></span><span class="image"> <img src="assets/images/cat-2.png" alt=""></span></a></div>
+              <div class="col-lg-4 col-12"><a class="main-catalog__item" href="#"><span class="text">Террасная доска							</span><span class="arrow">
+                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></span><span class="image"> <img src="assets/images/cat-3.png" alt=""></span></a></div>
+              <div class="col-lg-4 col-12"><a class="main-catalog__item" href="#"><span class="text">Водосточные системы							</span><span class="arrow">
+                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></span><span class="image"> <img src="assets/images/cat-4.png" alt=""></span></a></div>
+              <div class="col-lg-4 col-12"><a class="main-catalog__item" href="#"><span class="text">Ламинат						</span><span class="arrow">
+                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></span><span class="image"> <img src="assets/images/cat-5.png" alt=""></span></a></div>
+              <div class="col-lg-4 col-12"><a class="main-catalog__item" href="#"><span class="text">Подложка						</span><span class="arrow">
+                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></span><span class="image"> <img src="assets/images/cat-6.png" alt=""></span></a></div>
+              <div class="col-lg-4 col-12"><a class="main-catalog__item" href="#"><span class="text">Стеновые панели						</span><span class="arrow">
+                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></span><span class="image"> <img src="assets/images/cat-7.png" alt=""></span></a></div>
+              <div class="col-lg-4 col-12"><a class="main-catalog__item" href="#"><span class="text">Плинтусы					</span><span class="arrow">
+                     <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></span><span class="image"> <img src="assets/images/cat-8.png" alt=""></span></a></div>
+            </div>
+          </div>
+          <div class="main-form indent-full">
+            <div class="row"> 
+              <div class="col-xl-6 col-12">
+                <div class="main-form__text"> 
+                  <div class="text">
+                    <h2>Зарегистрируйтесь прямо сейчас</h2>
+                    <p>Получи доступ к крупнейшим товарным остаткам на территории РФ. Уникальные логистические и складские услуги для каждого из видов товаров.</p>
+                  </div>
+                  <div class="actions"> <a class="btn button button-red"> <img src="assets/images/user.svg" alt=""><span>Зарегистрироваться</span></a>
+                    <ul class="links"> 
+                      <li><a class="link" href="#">
+                          Партнерская программа <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></a></li>
+                      <li><a class="link" href="#">
+                          Презентация <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/>
+</svg></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-12">
+                <div class="main-form__image"> <img src="assets/images/form-1.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="main-promo"> 
+            <div class="caption-block"> 
+              <div class="caption-block__title"> <a class="link" href="#">
+                  Акции<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/></a></svg> </div>
+              <div class="swiper-buttons"> 
+                <div class="swiper-prev promo-prev">
+                  <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 5L3.83 5L7.41 1.41L6 0L0 6L6 12L7.41 10.59L3.83 7L16 7V5Z" fill="#313238"></path>
+                  </svg>
+                </div>
+                <div class="swiper-next promo-next">
+                  <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 7L12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5L1.74846e-07 5L0 7Z" fill="#313238"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="promo-slider swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="promo-slider__slide"> 
+                    <div class="promo-slider__slide_image"> <a href="#"> <img src="assets/images/promo-1.png" alt=""></a>
+                      <p class="promo">Акция</p>
+                    </div>
+                    <div class="promo-slider__slide_text"> <a class="link" href="#">Ламинат Megafloor Дуб астана 32 кл 8 мм</a>
+                      <p class="code">Артикул: <strong>1084038</strong></p>
+                      <p class="price">1 256 ₽<strong>482 ₽</strong></p>
+                      <p>рекомендованная розничная цена</p><a class="btn button button-white-bg" href="#">Подробнее </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="promo-slider__slide promo-slider__slide-full-title">
+                    <div class="promo-slider__slide_image"> <a href="#"> <img src="assets/images/promo-2.png" alt=""></a>
+                      <p class="promo">Акция</p>
+                    </div>
+                    <div class="promo-slider__slide_text"> <a class="link" href="#">Скидка 30% на сайдинг «ЛЮКС» от компании Текос</a>
+                      <p class="note">Акция действует с 24.08 по 24.09</p><a class="btn button button-white-bg" href="#">Подробнее </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="promo-slider__slide"> 
+                    <div class="promo-slider__slide_image"> <a href="#"> <img src="assets/images/promo-3.png" alt=""></a>
+                      <p class="promo">Акция</p>
+                    </div>
+                    <div class="promo-slider__slide_text"> <a class="link" href="#">Ламинат Megafloor Дуб астана 32 кл 8 мм</a>
+                      <p class="code">Артикул: <strong>1084038</strong></p>
+                      <p class="price">1 256 ₽<strong>482 ₽</strong></p>
+                      <p>рекомендованная розничная цена</p><a class="btn button button-white-bg" href="#">Подробнее </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="promo-slider__slide"> 
+                    <div class="promo-slider__slide_image"> <a href="#"> <img src="assets/images/promo-3.png" alt=""></a>
+                      <p class="promo">Акция</p>
+                    </div>
+                    <div class="promo-slider__slide_text"> <a class="link" href="#">Ламинат Megafloor Дуб астана 32 кл 8 мм</a>
+                      <p class="code">Артикул: <strong>1084038</strong></p>
+                      <p class="price">1 256 ₽<strong>482 ₽</strong></p>
+                      <p>рекомендованная розничная цена</p><a class="btn button button-white-bg" href="#">Подробнее </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="promo-slider__slide"> 
+                    <div class="promo-slider__slide_image"> <a href="#"> <img src="assets/images/promo-1.png" alt=""></a>
+                      <p class="promo">Акция</p>
+                    </div>
+                    <div class="promo-slider__slide_text"> <a class="link" href="#">Ламинат Megafloor Дуб астана 32 кл 8 мм</a>
+                      <p class="code">Артикул: <strong>1084038</strong></p>
+                      <p class="price">1 256 ₽<strong>482 ₽</strong></p>
+                      <p>рекомендованная розничная цена</p><a class="btn button button-white-bg" href="#">Подробнее </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="promo-slider__slide promo-slider__slide-full-title">
+                    <div class="promo-slider__slide_image"> <a href="#"> <img src="assets/images/promo-2.png" alt=""></a>
+                      <p class="promo">Акция</p>
+                    </div>
+                    <div class="promo-slider__slide_text"> <a class="link" href="#">Скидка 30% на сайдинг «ЛЮКС» от компании Текос</a>
+                      <p class="note">Акция действует с 24.08 по 24.09</p><a class="btn button button-white-bg" href="#">Подробнее </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="promo-slider__slide"> 
+                    <div class="promo-slider__slide_image"> <a href="#"> <img src="assets/images/promo-3.png" alt=""></a>
+                      <p class="promo">Акция</p>
+                    </div>
+                    <div class="promo-slider__slide_text"> <a class="link" href="#">Ламинат Megafloor Дуб астана 32 кл 8 мм</a>
+                      <p class="code">Артикул: <strong>1084038</strong></p>
+                      <p class="price">1 256 ₽<strong>482 ₽</strong></p>
+                      <p>рекомендованная розничная цена</p><a class="btn button button-white-bg" href="#">Подробнее </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination promo-pagination"></div>
+          </div>
+          <div class="main-partners"> 
+            <div class="caption-block"> 
+              <div class="caption-block__title"> 
+                <h2>Партнеры компании</h2>
+              </div>
+              <div class="swiper-buttons"> 
+                <div class="swiper-prev partners-prev">
+                  <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 5L3.83 5L7.41 1.41L6 0L0 6L6 12L7.41 10.59L3.83 7L16 7V5Z" fill="#313238"></path>
+                  </svg>
+                </div>
+                <div class="swiper-next partners-next">
+                  <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 7L12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5L1.74846e-07 5L0 7Z" fill="#313238"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="partners-slider swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="partners-slider__slide"> <img src="assets/images/partner-1.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners-slider__slide"> <img src="assets/images/partner-2.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners-slider__slide"> <img src="assets/images/partner-3.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners-slider__slide"> <img src="assets/images/partner-4.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners-slider__slide"> <img src="assets/images/partner-5.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners-slider__slide"> <img src="assets/images/partner-2.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners-slider__slide"> <img src="assets/images/partner-3.png" alt=""></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="partners-slider__slide"> <img src="assets/images/partner-4.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination partners-pagination"></div>
+          </div>
+          <div class="main-news"> 
+            <div class="caption-block"> 
+              <div class="caption-block__title"> <a class="link" href="#">
+                  Медиа<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.05017 12.9166L10.6557 4.31111L10.6627 9.38107L12.6568 9.38107L12.6568 0.895788L4.17149 0.895786V2.88983L9.24145 2.8969L0.635957 11.5024L2.05017 12.9166Z" fill="#313238"/></a></svg> </div>
+              <div class="swiper-buttons"> 
+                <div class="swiper-prev news-prev">
+                  <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 5L3.83 5L7.41 1.41L6 0L0 6L6 12L7.41 10.59L3.83 7L16 7V5Z" fill="#313238"></path>
+                  </svg>
+                </div>
+                <div class="swiper-next news-next">
+                  <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 7L12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5L1.74846e-07 5L0 7Z" fill="#313238"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="news-slider swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="news-slider__slide"> 
+                    <div class="news-slider__slide_image"> <a href="#"> <img src="assets/images/new-1.png" alt=""></a>
+                      <p class="note">Акция</p>
+                    </div>
+                    <div class="news-slider__slide_text"> <a class="link" href="#">Новинка!!! Коллекция сайдинга «ЛЮКС»!</a>
+                      <p class="date">18 июля 2022</p>
+                      <p>Компания «ТЕКОС» рада представить новые цвета панелей коллекции «BRICKWORK»</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="news-slider__slide"> 
+                    <div class="news-slider__slide_image"> <a href="#"> <img src="assets/images/new-2.png" alt=""></a>
+                      <p class="note red">Объявление</p>
+                    </div>
+                    <div class="news-slider__slide_text"> <a class="link" href="#">Новинка!!! Коллекция сайдинга «ЛЮКС»!</a>
+                      <p class="date">18 июля 2022</p>
+                      <p>Компания «ТЕКОС» рада представить новые цвета панелей коллекции «BRICKWORK»</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="news-slider__slide"> 
+                    <div class="news-slider__slide_image"> <a href="#"> <img src="assets/images/new-1.png" alt=""></a>
+                      <p class="note">Акция</p>
+                    </div>
+                    <div class="news-slider__slide_text"> <a class="link" href="#">Новинка!!! Коллекция сайдинга «ЛЮКС»!</a>
+                      <p class="date">18 июля 2022</p>
+                      <p>Компания «ТЕКОС» рада представить новые цвета панелей коллекции «BRICKWORK»</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="news-slider__slide"> 
+                    <div class="news-slider__slide_image"> <a href="#"> <img src="assets/images/new-2.png" alt=""></a>
+                      <p class="note red">Объявление</p>
+                    </div>
+                    <div class="news-slider__slide_text"> <a class="link" href="#">Новинка!!! Коллекция сайдинга «ЛЮКС»!</a>
+                      <p class="date">18 июля 2022</p>
+                      <p>Компания «ТЕКОС» рада представить новые цвета панелей коллекции «BRICKWORK»</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination news-pagination"></div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-block">
+            <div class="row"> 
+              <div class="col-lg-4 col-md-6 col-12"> 
+                <div class="footer-block__content">
+                  <p>Информация</p>
+                  <div class="footer-menu"> 
+                    <li> <a href="#">О компании</a></li>
+                    <li> <a href="#">Клиентам</a></li>
+                    <li> <a href="#">Поставщикам</a></li>
+                    <li> <a href="#">Партнёры</a></li>
+                    <li> <a href="#">Карьера</a></li>
+                    <li> <a href="#">Медиа</a></li>
+                    <li> <a href="#">Контакты</a></li>
+                    <li> <a href="#">Пользовательское соглашение</a></li>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12"> 
+                <div class="footer-block__content">
+                  <p>Каталог</p>
+                  <div class="footer-menu"> 
+                    <li> <a href="#">Сайдинг</a></li>
+                    <li> <a href="#">Фасадные панели</a></li>
+                    <li> <a href="#">Террасная доска</a></li>
+                    <li> <a href="#">Ламинат</a></li>
+                    <li> <a href="#">Водосточные системы</a></li>
+                    <li> <a href="#">Стеновые панели</a></li>
+                    <li> <a href="#">Жёсткие обои</a></li>
+                    <li> <a href="#">Подложка</a></li>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-12"> 
+                <div class="footer-info"> 
+                  <p>Офис продаж:</p>
+                  <div class="phons"> 
+                    <p> <a class="link" href="tel:84952868836">+7 495 286-88-36</a></p>
+                    <p><a class="link" href="tel:84952868836">+7 495 286-88-36</a></p>
+                  </div>
+                  <div class="work"> 
+                    <p>Пн.–Пт.: с 9:00 до 18:00</p>
+                    <p>Сб.: до 16:30</p>
+                  </div>
+                  <div class="address"> 
+                    <p class="caption">Адрес:</p>
+                    <p>г. Москва, ул. Рябиновая, д. 55, стр. 28</p>
+                    <p>г. Домодедово, ул. Станционная, д. 24</p>
+                  </div>
+                  <ul class="social"> 
+                    <li> <a href="#">
+                         <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.3963 8.10537C18.5222 8.26112 18.8217 8.56449 19.2954 9.01615H19.3064L19.3175 9.02685L19.3285 9.03821L19.3509 9.06027C20.3944 10.0298 21.101 10.8478 21.4713 11.5139C21.4936 11.5505 21.5177 11.5973 21.5436 11.6527C21.5692 11.7082 21.5952 11.8062 21.6212 11.9467C21.6468 12.0879 21.6448 12.2131 21.6156 12.3241C21.5861 12.4347 21.4936 12.5372 21.3382 12.6294C21.1828 12.7222 20.9644 12.7683 20.6831 12.7683L17.8411 12.813C17.6637 12.85 17.4563 12.8315 17.2195 12.7576C16.9823 12.6832 16.7902 12.6018 16.6422 12.5132L16.42 12.3796C16.1977 12.2241 15.9388 11.9873 15.6429 11.6693C15.3467 11.351 15.0932 11.0642 14.8823 10.8088C14.6714 10.5535 14.4456 10.3393 14.2049 10.1648C13.9641 9.99084 13.7552 9.93341 13.5777 9.99279C13.5556 10.0006 13.5258 10.0136 13.4888 10.0317C13.4515 10.0502 13.3888 10.1034 13.2999 10.1927C13.211 10.2816 13.1315 10.3909 13.0611 10.52C12.9907 10.6498 12.9278 10.8422 12.8723 11.0976C12.8168 11.3526 12.7925 11.6398 12.8003 11.9581C12.8003 12.0687 12.7869 12.1709 12.7613 12.2634C12.7354 12.3559 12.7075 12.4243 12.6779 12.4685L12.6335 12.5239C12.5001 12.6651 12.3041 12.7462 12.0452 12.7683H10.7685C10.2428 12.7981 9.70258 12.7371 9.14775 12.5853C8.59291 12.4331 8.10589 12.2374 7.68798 11.9967C7.26942 11.7566 6.8885 11.5123 6.54457 11.2644C6.20031 11.0161 5.93944 10.8036 5.76196 10.6261L5.48454 10.3594C5.41056 10.2858 5.30868 10.1745 5.17922 10.0262C5.04976 9.87825 4.78532 9.54178 4.38558 9.01615C3.98584 8.49051 3.59356 7.93211 3.20874 7.33964C2.82393 6.74749 2.37065 5.9665 1.84858 4.997C1.32684 4.02782 0.84404 3.02133 0.399848 1.97753C0.355396 1.85942 0.333008 1.75949 0.333008 1.67805C0.333008 1.59693 0.34404 1.53755 0.366428 1.50024L0.410879 1.43372C0.521846 1.29291 0.732749 1.2225 1.04359 1.2225L4.08545 1.20043C4.17435 1.21536 4.25936 1.23937 4.3408 1.27279C4.42224 1.30588 4.48162 1.33736 4.51861 1.36688L4.57409 1.4003C4.69252 1.48207 4.7811 1.60017 4.84048 1.75559C4.98843 2.12613 5.15878 2.509 5.35118 2.90485C5.54359 3.30069 5.69544 3.60245 5.80641 3.80946L5.98389 4.13165C6.19836 4.57552 6.4057 4.96066 6.60557 5.2861C6.80576 5.61186 6.98487 5.86559 7.14418 6.04664C7.30317 6.22802 7.45664 6.37078 7.60492 6.47396C7.75287 6.57779 7.87877 6.62971 7.9826 6.62971C8.0861 6.62971 8.18604 6.61121 8.2824 6.57422C8.297 6.56676 8.3155 6.54826 8.33788 6.51874C8.36027 6.48921 8.4044 6.40777 8.47124 6.27409C8.53776 6.14106 8.58772 5.96715 8.62114 5.75235C8.65456 5.53821 8.6896 5.2384 8.72659 4.85358C8.76358 4.46844 8.76358 4.00608 8.72659 3.46585C8.71167 3.16961 8.67825 2.89966 8.62666 2.65533C8.57474 2.41134 8.52283 2.24099 8.47124 2.14463L8.4044 2.0116C8.21945 1.76013 7.90505 1.60082 7.46086 1.53398C7.36449 1.51971 7.38298 1.4308 7.51634 1.26792C7.64223 1.1271 7.78272 1.01646 7.93814 0.934696C8.33042 0.742612 9.21491 0.653709 10.5916 0.667985C11.1984 0.675773 11.698 0.723469 12.0903 0.812372C12.2383 0.849686 12.3622 0.899329 12.4622 0.962275C12.5621 1.0249 12.638 1.11412 12.6899 1.22834C12.7415 1.3432 12.7805 1.46163 12.8064 1.58363C12.8324 1.70595 12.8454 1.87467 12.8454 2.08882C12.8454 2.30361 12.8418 2.50738 12.8343 2.69946C12.8269 2.89187 12.8178 3.15306 12.8067 3.48207C12.7957 3.8114 12.7899 4.11705 12.7899 4.39804C12.7899 4.4798 12.7863 4.63489 12.7788 4.86429C12.7714 5.09401 12.7691 5.2715 12.7733 5.39706C12.7769 5.52296 12.7899 5.67318 12.8119 5.84677C12.8343 6.02069 12.8768 6.1654 12.9398 6.27961C13.0024 6.39447 13.0858 6.48499 13.1896 6.55151C13.2487 6.56676 13.3116 6.58136 13.3784 6.59629C13.445 6.61089 13.541 6.57065 13.6669 6.47396C13.7925 6.37792 13.9333 6.25008 14.0887 6.09109C14.2441 5.93243 14.4365 5.68454 14.6659 5.34742C14.895 5.01127 15.1468 4.61316 15.4206 4.15404C15.8648 3.38441 16.2607 2.5515 16.6085 1.65598C16.638 1.58168 16.675 1.51711 16.7195 1.46163C16.7639 1.40582 16.8045 1.36688 16.8415 1.34482L16.8859 1.3114C16.9005 1.30394 16.919 1.29485 16.9414 1.28382C16.9638 1.27311 17.0118 1.26176 17.0858 1.2504C17.1598 1.23969 17.2337 1.23775 17.308 1.24521L20.5053 1.2225C20.7938 1.18583 21.0306 1.19492 21.2156 1.25008C21.4005 1.30556 21.5154 1.36688 21.5598 1.4334L21.6267 1.54437C21.7967 2.01841 21.2419 3.10569 19.9615 4.80816C19.7837 5.04534 19.543 5.36007 19.2399 5.75203C18.6627 6.49246 18.3298 6.97721 18.2415 7.20725C18.115 7.50998 18.1669 7.80978 18.3963 8.10537Z" fill="white"/>
+</svg></a></li>
+                    <li> <a href="#">
+                         <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.6955 12.9643C17.0677 12.8092 17.7202 12.0762 17.9334 10.7264C17.9334 10.7264 18.1598 9.24783 18.1595 6.69072C18.1595 5.2342 18.0528 3.8802 17.933 2.93439C17.7614 1.5791 16.9785 0.728998 15.5888 0.60343C13.9976 0.459692 10.5531 0.376953 8.95542 0.376953C5.68741 0.376953 4.22667 0.456772 2.68157 0.616733C1.20914 0.768907 0.564107 1.42335 0.3107 2.77443C0.133218 3.72121 0.0576172 4.60798 0.0576172 6.7037C0.0576172 8.58624 0.146521 9.77022 0.284094 10.7663C0.473257 12.1343 1.41226 12.9029 2.78832 13.0175C4.38923 13.1508 7.59624 13.2173 9.1819 13.2173C10.7143 13.2173 14.1621 13.1375 15.6955 12.9643ZM12.1391 6.71277L7.1842 9.34127V4.13749L12.1391 6.71277Z" fill="white"/>
+</svg></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copy"> 
+          <div class="container">
+            <div class="row"> 
+              <div class="col-lg-8 col-md-6 col-12">
+                <p>&copy; «SB». 2018. Все права защищены</p>
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                <p class="dev">Разработка сайта — <a href="#">Logicloud</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <script src="assets/js/wNumb.js"></script>
+      <script src="assets/js/nouislider.js"></script>
+      <script src="assets/js/jquery.formstyler.js"></script>
+      <script src="assets/js/script.js"></script>
+    </div>
+  </body>
+</html>
