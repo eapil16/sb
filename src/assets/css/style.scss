@@ -4061,3 +4061,81 @@ textarea.form-control {
   }
 }
 
+
+
+
+// new styles
+
+.dropdown-menu[data-bs-popper] {
+  top: 41px;
+}
+.button {
+  padding: 14px 40px;
+}
+h2 {
+  margin: 0 0 35px 0;
+}
+.interior-block h1 {
+  margin: 0 0 40px 0;
+}
+.product-content h1 {
+  margin: 0 0 25px 0;
+}
+.about h1 {
+  margin: 0 0 35px 0;
+}
+.about h2 {
+  margin: 70px 0 35px;
+}
+.clients {
+  .interior-block h1 {
+    margin: 0 0 50px 0;
+  }
+}
+.caption-block {
+  margin: 0 0 35px 0;
+}
+.clients-docs h2 {
+  margin-bottom: 35px;
+}
+.sale-text h1 {
+  margin: 0 0 35px 0;
+}
+.main-slider__slide_text {
+  padding: 40px 50px;
+}
+.main-slider {
+  .swiper-buttons {
+    height: 52px;
+    bottom: 90px;
+    box-shadow: 0 10px 15px rgba(255,255,255,0.5);
+    transition: all 400ms ease-in-out;
+    &:hover {
+      box-shadow: none;
+      transition: all 400ms ease-in-out;
+    }
+  }
+}
+.white-placeholder {
+  ::-webkit-input-placeholder {color:rgba(118, 128, 137, 0.4);}
+  ::-moz-placeholder          {color:rgba(118, 128, 137, 0.4);}
+  :-moz-placeholder           {color:rgba(118, 128, 137, 0.4);}
+  :-ms-input-placeholder      {color:rgba(118, 128, 137, 0.4);}
+}
+.right-menu {
+  position: sticky;
+  top: 15px;
+}
+.filter-line {
+  margin: 0 0 15px 0;
+}
+.chekbox .promo-chekbox input[type="checkbox"] + label {
+  color: #E93639;
+}
+
+@media screen and (max-width: 1199px) {
+  .main-slider .swiper-buttons {
+    height: 46px;
+  }
+}
+

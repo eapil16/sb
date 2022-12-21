@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
         coll.forEach(el => el.classList.remove('show'));
 
         const collLink = document.querySelectorAll('.button-count');
-        console.log('collLink', collLink)
+        // console.log('collLink', collLink)
         collLink.forEach(elem => elem.classList.remove('active'));
 
         if (e.target.closest('.button-count')) {
@@ -237,5 +237,26 @@ document.addEventListener('DOMContentLoaded', () => {
             e.target.parentNode.querySelector('.product-content__count_item-text').classList.add('show');
         }
     })
+
+    //new 
+
+    if(document.querySelector('.contacts-form')) {
+
+        const coll =  document.querySelectorAll('.contacts-form .form-control')
+
+        coll.forEach(element => {
+            element.addEventListener('focus',  e => {
+                element.parentNode.classList.add('white-placeholder')
+            })
+        })
+
+        coll.forEach(element => {
+            element.addEventListener('blur',  e => {
+                element.parentNode.classList.remove('white-placeholder')
+            })
+        })
+        
+    }
+    // contacts-form
 
 });
